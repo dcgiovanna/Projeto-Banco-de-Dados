@@ -19,3 +19,7 @@ select * from equipe where nome = 'Imperial';
 -- visualizar jogadores da equipe Imperial
 select * from jogador where equipe_id = '9455';
 
+-- visualizar maior rating
+SELECT MAX(rating) AS maior_rating FROM estatistica_partida;
+
+
